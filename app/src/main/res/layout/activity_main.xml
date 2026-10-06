@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/ipInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bilgisayar IP adresi" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bağlan" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Telefonu eğerek imleci hareket ettirin." />
+
+    <Button
+        android:id="@+id/clickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sol Tık / Sağ Tık" />
+
+</LinearLayout>
